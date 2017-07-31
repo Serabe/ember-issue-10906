@@ -1,0 +1,8 @@
+<h3>Logged Method Calls</h3>
+
+<button {{action 'clearLogs'}}>Clear Logs</button>
+<ul>
+    {{#each logs as |log|}}
+    <li>{{log}}</li>
+    {{/each}}
+</ul>
